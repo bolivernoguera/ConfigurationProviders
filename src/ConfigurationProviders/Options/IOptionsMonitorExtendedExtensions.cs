@@ -15,11 +15,7 @@ namespace ConfigurationProviders.Options
             return serviceCollection;
         }
 
-        public static IServiceCollection AddSafeOptions(this IServiceCollection serviceCollection)
-        {
-            serviceCollection.AddSafeOptions((_, __, ___) => { });
-            return serviceCollection;
-        }
+        public static IServiceCollection AddSafeOptions(this IServiceCollection serviceCollection) => serviceCollection.AddSafeOptions((_, __, ___) => { });
 
         public static IDisposable OnChangeException<TOptions>(this IOptionsMonitorExtended<TOptions> monitor, Action<TOptions, Exception> listener) => monitor.OnChangeException((o, _, e) => listener(o, e));
     }
