@@ -25,8 +25,8 @@ To test the application a TestServer(TestApi) is executed with a test Configurat
 
 The following tests are available in ConfigurationProvidersTest:
 
-*TestOptional: Test that checks that the application should not crash when ConfigurationProvider is optional.
-*TestNotOptional: Test that checks that the application should crash when ConfigurationProvider is not optional.
-*TestOptionsMatch: Test that checks that mapped IOptionsMonitor matches with ConfigurationProvider.
-*TestSuccessReloadOptions: Test that checks that options are reloaded when ConfigurationProvider change the values.
-*TestFailReloadOptions: Test that checks that options are not reloaded when ConfigurationProvider change the values and crash.
+* TestOptional: Test that checks that the application should not crash when ConfigurationProvider is optional.
+* TestNotOptional: Test that checks that the application should crash when ConfigurationProvider is not optional.
+* TestOptionsMatch: Test that checks that mapped IOptionsMonitor matches with ConfigurationProvider.
+* TestSuccessReloadOptions: Test that checks that options are reloaded when ConfigurationProvider change the values.
+* TestFailReloadOptions: Test that checks that options are not reloaded when ConfigurationProvider change the values and crash.
