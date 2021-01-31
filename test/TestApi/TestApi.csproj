@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConfigurationProviders\ConfigurationProviders.csproj" />
+    <ProjectReference Include="..\..\src\ConfigurationProviders\ConfigurationProviders.csproj" />
   </ItemGroup>
 
 </Project>
